@@ -1,0 +1,5 @@
+{
+    "venvPath": "/home/default/miniconda3/envs/",
+    "venv": "asyncio",
+    "reportImplicitStringConcatenation": false
+}
