@@ -1,5 +1,5 @@
 import asyncio
-from delay import delay
+from utils.delay import delay
 
 async def main() -> None:
 	sleep_for_three = asyncio.create_task(delay(3))

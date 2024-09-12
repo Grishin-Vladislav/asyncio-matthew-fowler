@@ -1,5 +1,5 @@
 import asyncio
-from delay import delay
+from utils.delay import delay
 
 async def main() -> None:
 	t1 = asyncio.create_task(delay(3))

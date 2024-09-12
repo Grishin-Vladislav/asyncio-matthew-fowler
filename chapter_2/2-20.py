@@ -1,6 +1,6 @@
 import asyncio
 import requests
-from chapter_2.timer import async_timed
+from utils.timer import async_timed
 
 @async_timed()
 async def make_request() -> int:

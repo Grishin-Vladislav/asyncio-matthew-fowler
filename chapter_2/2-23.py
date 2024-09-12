@@ -1,5 +1,5 @@
 import asyncio
-from chapter_2 import timer, delay
+from utils import timer
 
 @timer.async_timed()
 async def cpu_bound():

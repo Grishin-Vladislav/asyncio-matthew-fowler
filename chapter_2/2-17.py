@@ -1,7 +1,7 @@
 import asyncio
 
-from chapter_2.timer import async_timed
-from chapter_2.delay import delay
+from utils.timer import async_timed
+from utils.delay import delay
 
 @async_timed()
 async def main():

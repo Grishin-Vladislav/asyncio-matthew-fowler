@@ -1,6 +1,6 @@
 import asyncio
 from asyncio import CancelledError
-from delay import delay
+from utils.delay import delay
 
 async def main() -> None:
 	long_task = asyncio.create_task(delay(100))

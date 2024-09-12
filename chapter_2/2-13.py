@@ -1,7 +1,7 @@
 import asyncio
 from asyncio.exceptions import TimeoutError
 
-from delay import delay
+from utils.delay import delay
 
 async def main():
 	task = asyncio.create_task(delay(10))

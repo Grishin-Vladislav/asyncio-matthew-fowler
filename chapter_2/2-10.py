@@ -1,5 +1,5 @@
 import asyncio
-from delay import delay
+from utils.delay import delay
 
 async def hello() -> None:
 	for i in range(2):
